@@ -19,7 +19,7 @@ class ContatoController extends Controller
 
         try {
             // Email para o solicitante
-            $view = View::make('emails.contato', ['dados' => $dados])->render();  
+            $view = View::make('emails.contato-email', ['dados' => $dados])->render();  
             $esg_mail_cliente = new EsgMail($view);
             $esg_mail_cliente->subject('Nova mensagem recebida');
             $esg_mail_cliente->from('email@gmail.com','Laravel');
