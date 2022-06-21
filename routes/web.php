@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ContatoController@contatoView')->name('contato-view');
+Route::post('/contato',['as'=>'contato.send','uses'=>'ContatoController@sendContato']);
+
