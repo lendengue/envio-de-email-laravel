@@ -1,0 +1,33 @@
+section.contato{
+    text-align: -webkit-center;
+    padding: 0px 140px;
+
+    /* background-color: red; */
+}
+
+.container{
+    text-align: -webkit-center;
+    padding: 0px 100px;
+
+    /* background-color: blue; */
+}
+
+.form-contato{
+    padding: 0px 70px;
+    float:none;
+    margin:auto;
+
+    /* background-color: green; */
+}
+
+.card{
+    background-color: #d3d3d3;
+    padding: 30px 40px;
+    margin-top: 60px; 
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgb(0 0 0 / 8%);
+    border-radius: 0.3rem;
+
+    /* background-color:gray; */
+}
